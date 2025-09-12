@@ -60,7 +60,7 @@ function RoomSelection({ rooms, updateQuantity }) {
               onMouseLeave={() => setHover(false)}
             >
               <h4 style={{ fontSize: "1.2rem", marginBottom: "10px", color: "#333" }}>{room.name}</h4>
-              <img style={{ height:"300px",display:"flex", flexDirection:"column", width:"220px"}}  className="w-250 flex ml-8  h-100" src={room.img}/>
+              <img style={{ height:"300px",display:"flex", flexDirection:"column", width:"250px"}}  className="w-250 flex ml-5  h-100" src={room.img}/>
               <p style={{ margin: "5px 0" }} > Capacity: {room.capacity}</p>
               <p style={{ margin: "5px 0", fontWeight: "bold" }}>${room.price}</p>
               <div style={{ display: "flex", justifyContent: "center", gap: "10px", marginTop: "10px" }}>
