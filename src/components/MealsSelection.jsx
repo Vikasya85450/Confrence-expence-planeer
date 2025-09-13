@@ -7,7 +7,6 @@ function MealsSelection({ meals, updateMealQuantity, people, setPeople }) {
     minHeight: "100vh",
     padding: "50px 20px",
     boxSizing: "border-box",
-     width: "100vw",
     color: "#333",
     display: "flex",
     flexDirection: "column",
