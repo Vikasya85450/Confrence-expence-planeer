@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import RoomSelection from "../components/RoomSelection";
-import AddOnsSelection from "../components/addOnsSelection";
 import MealsSelection from "../components/MealsSelection";
 import SummaryModal from "../components/SummaryModal";
+import AddOnsSelection from "../components/add-on-selection";
 
 function ProductSelectionPage() {
   const [rooms, setRooms] = useState([
